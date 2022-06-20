@@ -756,6 +756,23 @@ section {
   padding: 0 !important;
 }
 
+.contact-content-con .left-contact .contact-info .contact-item .icon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40px, 1fr;
+      grid-template-columns: 40px, 1fr;
+}
+
+.contact-content-con .left-contact .contact-info .contact-item .icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
 .contact-content-con .right-contact {
   -webkit-box-flex: 3;
       -ms-flex: 3;

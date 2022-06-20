@@ -547,6 +547,15 @@ section{
                     margin: .3rem 0 !important;
                     padding: 0 !important;
                 }
+                .icon{
+                    display: grid;
+                    grid-template-columns: 40px, 1fr;
+                    i{
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.3rem;
+                    }
+                }
             }
         }
     }

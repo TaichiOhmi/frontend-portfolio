@@ -101,7 +101,7 @@ section{
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
-    
+    padding: 3rem 13rem;
 }
 
 .active{
@@ -184,7 +184,7 @@ section{
 .header-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 100%;
+    min-height: 100vh;
     .left-header{
         display: flex;
         align-items: center;
@@ -588,12 +588,14 @@ section{
                     padding: 0 !important;
                 }
                 .icon{
-                    display: grid;
+                    display: flex;
+                    align-items: center;
                     grid-template-columns: 40px, 1fr;
                     i{
-                        display: flex;
+                        display: block;
                         align-items: center;
                         font-size: 1.3rem;
+                        margin-right: .5rem;
                     }
                 }
             }
@@ -655,7 +657,7 @@ section{
         }
         .submit-btn{
             display: flex;
-            justify-content: flex-start;
+            justify-content: flex-end;
 
         }
     }
@@ -732,3 +734,5 @@ section{
         }
     }
 }
+
+@import './media';
